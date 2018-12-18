@@ -12,6 +12,9 @@ RUN apk --update --no-cache add \
     bash \
     openjdk8-jre-base \
     sudo \
+    git \
+    openssh \
+    gradle \
     && rm -rf /var/cache/apk/*
 
 # Add jenkins user and allow to run docker as root
